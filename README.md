@@ -6,6 +6,8 @@ this is very good and small implementation of fizzbuzz in python!!!! there is to
 
 issues are disabled because there are absolutely no issues!!!111
 
+WARNING: plz dont actually import this unless you want your ram to die
+
 its a function where you give it a number and it returns the fizzbuzz result of that!!!! you can put it in a for loop to get a fizzbuzz program!!!!!!!!!!!!!!!!!!
 
 ### how do i contribute
