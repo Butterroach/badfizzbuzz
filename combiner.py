@@ -17,9 +17,9 @@ with open("badfizzbuzz.py", "wb") as output_file:
             with open(filename, "rb") as chunk_file:
                 # Read the chunk from the chunk file
                 chunk = chunk_file.read()
-                print(f"Chunk {i} written.")
 
                 # Write the chunk to the output file
                 output_file.write(chunk)
+                print(f"Chunk {i} written.")
 
 print("Done re-combining the chunks.")
