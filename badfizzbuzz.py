@@ -1,3 +1,3 @@
 # this gets replaced
 
-subprocess.call(["python", "combiner.py"])
+print("Please run combiner.py before using this file.")

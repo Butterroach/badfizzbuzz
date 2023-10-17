@@ -1,21 +1,23 @@
 # this is here to get around github file size limits
 
 import os
-import subprocess
+
+print("Combining chunks...")
 
 # Open the output file for writing
-with open(os.path.join('badfizzbuzz.py'), 'wb') as output_file:
-        # Loop through the chunk files
+with open("badfizzbuzz.py", "wb") as output_file:
+    # Loop through the chunk files
     for i in range(100):
         # Generate the filename for the chunk
-        filename = os.path.join('chunks', 'chunk_' + str(i) + '.py')
+        filename = os.path.join("chunks", "chunk_" + str(i) + ".py")
 
         # Check if the chunk file exists
         if os.path.exists(filename):
             # Open the chunk file for reading
-            with open(filename, 'rb') as chunk_file:
+            with open(filename, "rb") as chunk_file:
                 # Read the chunk from the chunk file
                 chunk = chunk_file.read()
+                print(f"Chunk {i} written.")
 
                 # Write the chunk to the output file
                 output_file.write(chunk)
