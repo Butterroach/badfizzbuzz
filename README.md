@@ -10,6 +10,8 @@ WARNING: plz dont actually import this unless you want your ram to die
 
 run combiner.py to generate the badfizzbuzz.py file which will have a function so you can import the file and use the function!!!!!!!! ver ysimple and efficient this is very serios
 
+AHJGFHJRSAGHJAWSEJGW DONT REWRITE IT IN RUST I HATE RUST I WILL KILL YOU IF YOU DOU YIOG JUEROIGHJ EOWITRHG
+
 ### how do i contribute
 
 same answer as the section below
